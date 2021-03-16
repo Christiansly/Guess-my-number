@@ -1,0 +1,49 @@
+.header > div:first-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header > div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.header > div:nth-child(3) {
+    position: relative;
+    border: rgba(255,255,255,0) solid ;
+}
+
+.number {
+    width: 15rem;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+
+}
+
+
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.body {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10rem;
+}
+
+.body > div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    justify-content: space-evenly;
+}
